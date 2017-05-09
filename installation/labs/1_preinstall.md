@@ -20,6 +20,16 @@ System Configuration Checks
 	Filesystem     Type   Size  Used Avail Use% Mounted on
 	/dev/xvde      ext4   7.9G  650M  6.9G   9% /
 	tmpfs          tmpfs  7.4G     0  7.4G   0% /dev/shm
+	[root@ip-172-31-1-96 ~]# resize2fs /dev/xvde
+	resize2fs 1.41.12 (17-May-2010)
+	Filesystem at /dev/xvde is mounted on /; on-line resizing required
+	old desc_blocks = 1, new_desc_blocks = 2
+	Performing an on-line resize of /dev/xvde to 7864320 (4k) blocks.
+	The filesystem on /dev/xvde is now 7864320 blocks long.	
+	[root@ip-172-31-1-96 ~]# df -hl
+	Filesystem      Size  Used Avail Use% Mounted on
+	/dev/xvde        30G  1.3G   27G   5% /
+	tmpfs           7.4G     0  7.4G   0% /dev/shm
 3.If you have ext-based volumes, list the reserve space setting 
 
 	null
