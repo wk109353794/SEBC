@@ -28,3 +28,6 @@ Name all the roles that make up the Hive service
  
 
 What steps must be completed before integrating Cloudera Manager with Kerberos?
+
+- Install Kerberos server and client
+- Create an account for Cloudera Manager that has the permissions to create other accounts in the KDC
