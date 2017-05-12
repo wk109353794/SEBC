@@ -3,19 +3,19 @@ List the cloud provider you are using
 	AWS	
 List your instances by their IP address and DNS name
 
-	Private DNS name 							Private ip
-	ip-172-31-3-136.us-west-1.compute.internal	172.31.3.136
-	ip-172-31-10-63.us-west-1.compute.internal	172.31.10.63
+	Private DNS name 							Private ip	
 	ip-172-31-1-194.us-west-1.compute.internal	172.31.1.194
 	ip-172-31-1-78.us-west-1.compute.internal	172.31.1.78
 	ip-172-31-13-75.us-west-1.compute.internal	172.31.13.75
+	ip-172-31-10-63.us-west-1.compute.internal	172.31.10.63
+	ip-172-31-3-136.us-west-1.compute.internal	172.31.3.136
 
 	Public DNS Name										Public IP
-	ec2-52-53-156-217.us-west-1.compute.amazonaws.com	52.53.156.217
-	ec2-52-53-212-165.us-west-1.compute.amazonaws.com	52.53.212.165
 	ec2-54-183-236-31.us-west-1.compute.amazonaws.com	54.183.236.31
 	ec2-54-193-68-166.us-west-1.compute.amazonaws.com	54.193.68.166
 	ec2-54-215-162-31.us-west-1.compute.amazonaws.com	54.215.162.31
+	ec2-52-53-212-165.us-west-1.compute.amazonaws.com	52.53.212.165
+	ec2-52-53-156-217.us-west-1.compute.amazonaws.com	52.53.156.217
 
 List the file system capacity for the first node
 
